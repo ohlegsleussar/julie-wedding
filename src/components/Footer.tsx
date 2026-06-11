@@ -114,7 +114,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.tiktok.com/@juliawedding8?_r=1&_t=ZG-96elQuY0VIf"
+              href="https://www.tiktok.com/@juliewedding1975?_r=1&_t=ZG-9787UAdWLAm"
               target="_blank"
               className="hover:text-[#c6a27b] transition"
             >
