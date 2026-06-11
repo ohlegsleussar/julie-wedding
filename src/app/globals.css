@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f6f2;
+  --foreground: #1a1a1a;
+  --accent: #d8c3a5;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #2b2b2b !important;
+  opacity: 0.5;
+  transform: scale(0.75);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 0.9;
+  color: #000 !important;
+}
+
+.swiper-pagination-bullet {
+  background: #2b2b2b !important;
+  opacity: 0.3;
+}
+
+.swiper-pagination-bullet-active {
+  background: #111 !important;
+  opacity: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-playfair);
+}
+
+button {
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
